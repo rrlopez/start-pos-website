@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
   output: 'static',
-  site: 'https://startpos.github.io',
+  site: 'https://rrlopez.github.io',
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],

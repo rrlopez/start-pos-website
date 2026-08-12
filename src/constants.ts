@@ -253,6 +253,7 @@ export const FAQS: FAQ[] = [
 // ---------------------------------------------------------------------------
 
 export const NAV_LINKS = [
+  { label: 'Product', href: '/product-intro' },
   { label: 'Features', href: '/features' },
   { label: 'Pricing', href: '/pricing' },
   { label: 'Use Cases', href: '#', children: [
