@@ -144,7 +144,7 @@ export const PLANS: Plan[] = [
       'Priority support SLA',
     ],
     cta: 'Contact us for a quote',
-    ctaUrl: '/contact',
+    ctaUrl: 'contact',
   },
 ]
 
@@ -253,13 +253,13 @@ export const FAQS: FAQ[] = [
 // ---------------------------------------------------------------------------
 
 export const NAV_LINKS = [
-  { label: 'Product', href: '/product-intro' },
-  { label: 'Features', href: '/features' },
-  { label: 'Pricing', href: '/pricing' },
+  { label: 'Product', href: 'product-intro' },
+  { label: 'Features', href: 'features' },
+  { label: 'Pricing', href: 'pricing' },
   { label: 'Use Cases', href: '#', children: [
-    { label: 'Retail', href: '/use-cases/retail' },
-    { label: 'Restaurant', href: '/use-cases/restaurant' },
-    { label: 'Grocery', href: '/use-cases/grocery' },
+    { label: 'Retail', href: 'use-cases/retail' },
+    { label: 'Restaurant', href: 'use-cases/restaurant' },
+    { label: 'Grocery', href: 'use-cases/grocery' },
   ]},
-  { label: 'About', href: '/about' },
+  { label: 'About', href: 'about' },
 ]
