@@ -496,4 +496,52 @@
     color: #cbd5e1;
   }
 
+  /* ── EARLY CUSTOMER PROGRAM ──────────────────────────────────────── */
+  .pd-early-customer-benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20pt;
+    margin-top: 12pt;
+  }
+
+  .pd-early-benefit-col {
+    padding: 12pt;
+    border: 0.5pt solid #e2e8f0;
+    background: #fafafa;
+  }
+
+  .pd-early-benefit-heading {
+    font-size: 9pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: #0f172a;
+    margin-bottom: 8pt;
+    padding-bottom: 6pt;
+    border-bottom: 1pt solid #10b981;
+  }
+
+  .pd-early-benefit-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pd-early-benefit-list li {
+    font-size: 9pt;
+    color: #475569;
+    padding: 4pt 0;
+    line-height: 1.4;
+    position: relative;
+    padding-left: 12pt;
+  }
+
+  .pd-early-benefit-list li:before {
+    content: "•";
+    color: #10b981;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+  }
+
 }

@@ -3,7 +3,7 @@
 // ---------------------------------------------------------------------------
 
 /** The URL to the hosted application (trial signup destination) */
-export const APP_URL = 'https://app.startpos.ph'
+export const APP_URL = 'https://start-pos-two.vercel.app'
 
 /** Formspree endpoint for the contact form */
 export const FORMSPREE_ENDPOINT = 'https://formspree.io/f/YOUR_FORM_ID'
@@ -41,10 +41,10 @@ export const PLANS: Plan[] = [
     txPerMonth: 500,
     branches: 1,
     employees: 1,
-    tagline: 'Try everything free. Ends after 30 days or 500 transactions — whichever comes first.',
+    tagline: 'Try everything free. Ends after 1 month or 500 transactions — whichever comes first.',
     highlighted: false,
     features: [
-      '30 days or 500 transactions — whichever comes first',
+      '1 month or 500 transactions — whichever comes first',
       '1 branch',
       '1 employee account',
       'POS checkout & payments',
@@ -130,18 +130,18 @@ export const PLANS: Plan[] = [
     txPerMonth: null,
     branches: null,
     employees: null,
-    tagline: 'Own it forever. One-time fee, no recurring subscription.',
+    tagline: 'Own your license forever. One-time fee, no recurring subscription.',
     highlighted: false,
     badge: 'Enterprise',
     features: [
       'Unlimited transactions',
       'Unlimited branches',
       'Unlimited employees',
-      'All features included',
-      'Self-hosted option',
-      'Source code access',
+      'All current V1 features included',
+      'Self-hosted deployment option',
       'Dedicated onboarding',
       'Priority support SLA',
+      'Perpetual usage rights',
     ],
     cta: 'Contact us for a quote',
     ctaUrl: 'contact',
@@ -224,7 +224,7 @@ export const FAQS: FAQ[] = [
   {
     question: 'What happens at the end of the trial?',
     answer:
-      'Your trial ends after 30 days or 500 completed transactions — whichever comes first. When it ends, your account enters a 7-day grace period where you can still access your data and reports, but new transactions are paused until you subscribe to a plan. No data is deleted.',
+      'Your trial ends after 1 month or 500 completed transactions — whichever comes first. When it ends, your account enters a 7-day grace period where you can still access your data and reports, but new transactions are paused until you subscribe to a plan. No data is deleted.',
   },
   {
     question: 'Is there a refund policy?',
@@ -234,7 +234,7 @@ export const FAQS: FAQ[] = [
   {
     question: 'What is the Perpetual License?',
     answer:
-      'The Perpetual License is a one-time payment that gives you a permanent license to use Start POS without monthly fees. It includes all current features, optional self-hosting, and source code access. Pricing is quoted based on your specific requirements.',
+      'The Perpetual License is a one-time payment that gives you a permanent license to use Start POS without monthly fees. It includes all current V1 features and optional self-hosted deployment. Pricing is quoted based on your specific requirements.',
   },
   {
     question: 'Does Start POS work offline?',
